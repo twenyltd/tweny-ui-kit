@@ -1,0 +1,39 @@
+<?php
+
+namespace TwenyCode\TwenyUiKit\Components\Forms;
+
+use Illuminate\Support\ViewErrorBag;
+use Illuminate\View\Component;
+
+class Error extends Component
+{
+    /** @var string */
+    public $field;
+
+    /** @var string */
+    public $bag;
+
+
+    //  Create a new component instance.
+    public function __construct($field, $bag='default')
+    {
+        $this->field = $field;
+        $this->bag = $bag;
+    }
+
+    //Get the view / contents that represent the component.
+    public function render()
+    {
+        return view('tweny-ui-kit-views::components.forms.error');
+    }
+
+    public function message(ViewErrorBag $errors): array
+    {
+        $bag = $errors->getBag($this->bag);
+
+        return $bag->has($this->field) ? $bag->get($this->field) : [];
+    }
+
+
+
+}

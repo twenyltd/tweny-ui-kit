@@ -1,0 +1,28 @@
+{
+    "name": "twenycode/tweny-ui-kit",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TwenyCode\\TwenyUiKit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antweny Sawe",
+            "email": "antweny@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^7.0|^8.0|^9.0",
+        "illuminate/view": "^7.0|^8.0|^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TwenyCode\\TwenyUiKit\\TwenyUiKitServiceProvider"
+            ]
+        }
+    }
+}
