@@ -1,3 +1,3 @@
 <label for="{{$for}}" {{ $attributes->merge(['class' => 'form-label']) }}>
-    {{$fallback}}
+    {{$fallback}} {!! $star ? '<span class="text-danger">*</span>' : '' !!}
 </label>
