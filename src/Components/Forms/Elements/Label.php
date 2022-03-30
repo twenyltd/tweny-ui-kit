@@ -10,10 +10,13 @@ class Label extends Component
     /* @var */
     public $for;
 
+    public $star;
+
     //  Create a new component instance.
-    public function __construct($for)
+    public function __construct($for, $star=false)
     {
         $this->for = $for;
+        $this->star = $star;
     }
 
     //  Get the view / contents that represent the component.

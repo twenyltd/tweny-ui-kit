@@ -1,7 +1,7 @@
 <div {{ $attributes->merge(['class' => 'card']) }} >
 
     @if(is_null($cardTitle))
-        hureee
+
     @else
         <div class="card-header text-bold">
             <div class="card-title">
