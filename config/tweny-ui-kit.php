@@ -19,6 +19,7 @@ return [
     'components' => [
         //  Buttons
         'button' => Components\Button\Button::class,
+        'delete' => Components\Button\Delete::class,
 
         //  Bootstrap Div Classes
         'card' => Components\Div\Card::class,
