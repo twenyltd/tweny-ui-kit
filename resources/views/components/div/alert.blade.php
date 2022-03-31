@@ -1,1 +1,1 @@
-hureee
+@include('flash::message')
