@@ -12,7 +12,7 @@
 
         <div class="card-body">
 
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col-md-12 text-end">
                     {{$cardButtons}}
                 </div>
