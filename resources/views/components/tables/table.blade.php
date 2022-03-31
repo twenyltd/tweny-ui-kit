@@ -1,5 +1,5 @@
 <div class="table-responsive">
-    <table {{$attributes->merge(['class'=>'table table-striped'])}} id="{{$id}}" >
+    <table {{$attributes->merge(['class'=>'table table-striped table-sm'])}} id="{{$id}}" >
         <thead class="text-center">
             <tr>
                 {{$thead}}
