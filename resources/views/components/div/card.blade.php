@@ -1,23 +1,25 @@
-<div {{ $attributes->merge(['class' => 'card']) }} >
+    <div {{ $attributes->merge(['class' => 'card']) }} >
 
-    @if(is_null($cardTitle))
+        @if(is_null($cardTitle))
 
-    @else
-        <div class="card-header text-bold">
-            <div class="card-title">
-                <h4>{{$cardTitle}}</h4>
+        @else
+            <div class="card-header bg-primary">
+                <div class="card-title">
+                    {{$cardTitle}}
+                </div>
             </div>
-        </div>
-    @endif
+        @endif
 
-    <div class="card-body">
-        <div class="row">
-            <div class="col-md-12 text-end">
-                {{$cardButtons}}
+        <div class="card-body">
+
+            <div class="row">
+                <div class="col-md-12 text-end">
+                    {{$cardButtons}}
+                </div>
             </div>
-        </div>
 
-        {{$slot}}
+            {{$slot}}
+
+        </div>
 
     </div>
-</div>
