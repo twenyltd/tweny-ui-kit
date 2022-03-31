@@ -1,4 +1,5 @@
 <div class="table-responsive">
+
     <table {{$attributes->merge(['class'=>'table table-striped table-bordered table-hover'])}} id="{{$id}}" >
         <thead class="text-center">
             <tr>
@@ -13,7 +14,7 @@
     </table>
 
 
-    <div class="row">
+    <div class="row mb-3">
         <div class="col-md-12">
             <div class="float-left"></div>
             <div class="float-right">
