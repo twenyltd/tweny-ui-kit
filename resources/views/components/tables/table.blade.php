@@ -1,6 +1,6 @@
 <div class="table-responsive">
 
-    <table {{$attributes->merge(['class'=>'table table-striped table-bordered table-hover'])}} id="{{$id}}" >
+    <table {{$attributes->merge(['class'=>'table table-striped table-bordered table-hover table-sm'])}} id="{{$id}}" >
 
         <thead class="text-center">
             <tr>
