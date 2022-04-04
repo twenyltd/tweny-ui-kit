@@ -2,7 +2,7 @@
 
 namespace TwenyCode\TwenyUiKit\Components\Forms\Elements;
 
-class Date extends  Input
+class PickDate extends  Input
 {
     public function __construct($name = 'date', $id = null)
     {
@@ -13,6 +13,6 @@ class Date extends  Input
     //  Get the view / contents that represent the component.
     public function render()
     {
-        return view('tweny-ui-kit-views::components.forms.elements.date');
+        return view('tweny-ui-kit-views::components.forms.elements.pick-date');
     }
 }

@@ -35,7 +35,7 @@ return [
         'email' => Components\Forms\Elements\Email::class,
         'textarea' => Components\Forms\Elements\Textarea::class,
         'checkbox' => Components\Forms\Elements\Checkbox::class,
-        'date' => Components\Forms\Elements\Date::class,
+        'pick-date' => Components\Forms\Elements\PickDate::class,
 
         //  Navigation
         'nav-link' => Components\Navigation\NavLink::class,
