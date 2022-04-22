@@ -5,7 +5,7 @@
         @else
             <div class="card-header bg-primary">
                 <div class="card-title">
-                    {{$cardTitle}}
+                    {!!  $cardTitle !!}
                 </div>
             </div>
         @endif
