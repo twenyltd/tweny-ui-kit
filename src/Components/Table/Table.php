@@ -17,7 +17,7 @@ class Table extends Component
     public $collection;
 
     //  Create a new component instance.
-    public function __construct($id = 'table',  $thead = null,    $collection = null, $class= 'table-striped table-bordered table-hover table-sm')
+    public function __construct($id = 'table',  $thead = null,    $collection = null)
     {
         //dd($hasActions);
         $this->id = $id;
