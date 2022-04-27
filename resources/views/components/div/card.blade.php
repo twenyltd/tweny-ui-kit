@@ -3,7 +3,7 @@
         @if(is_null($cardTitle))
 
         @else
-            <div class="card-header bg-primary">
+            <div class="card-header">
                 <div class="card-title">
                     {!!  $cardTitle !!}
                 </div>
