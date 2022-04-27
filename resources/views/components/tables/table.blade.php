@@ -4,7 +4,7 @@
 
         <thead class="text-center">
             <tr>
-                {{$thead}}
+                {!! $thead !!}
             </tr>
         </thead>
 

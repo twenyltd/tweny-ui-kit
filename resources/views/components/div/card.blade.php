@@ -14,7 +14,7 @@
 
             <div class="row mb-3">
                 <div class="col-md-12 text-end">
-                    {{$cardButtons}}
+                    {!!$cardButtons !!}
                 </div>
             </div>
 
