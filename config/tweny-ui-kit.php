@@ -20,6 +20,7 @@ return [
         //  Buttons
         'button' => Components\Button\Button::class,
         'delete' => Components\Button\Delete::class,
+        'dropleft' => Components\Button\Dropleft::class,
 
         //  Bootstrap Div Classes
         'card' => Components\Div\Card::class,
