@@ -3,7 +3,7 @@
         @if(is_null($cardTitle))
 
         @else
-            <div class="card-header bg-primary">
+            <div class="card-header">
                 <div class="card-title">
                     {!!  $cardTitle !!}
                 </div>
@@ -14,7 +14,7 @@
 
             <div class="row mb-3">
                 <div class="col-md-12 text-end">
-                    {{$cardButtons}}
+                    {!!$cardButtons !!}
                 </div>
             </div>
 
