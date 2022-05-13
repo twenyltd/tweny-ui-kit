@@ -1,8 +1,6 @@
     <div {{ $attributes->merge(['class' => 'card']) }} >
 
-        @if(is_null($cardTitle))
-
-        @else
+        @if(!is_null($cardTitle))
             <div class="card-header">
                 <div class="card-title">
                     {!!  $cardTitle !!}
@@ -11,12 +9,13 @@
         @endif
 
         <div class="card-body">
-
-            <div class="row mb-3">
-                <div class="col-md-12 text-end">
-                    {!!$cardButtons !!}
+            @if(!is_null($cardButtons))
+                <div class="row mb-3">
+                    <div class="col-md-12 text-end">
+                        {!!$cardButtons !!}
+                    </div>
                 </div>
-            </div>
+            @endif
 
             {{$slot}}
 
