@@ -10,18 +10,14 @@ class AjaxError extends Component
     /** @var string */
     public $field;
 
-//    /** @var string */
-//    public $bag;
-
     /** @var string */
     public $id;
 
 
     //  Create a new component instance.
-    public function __construct($field, $bag='default', $id = null)
+    public function __construct($field, $id = null)
     {
         $this->field = $field;
-//        $this->bag = $bag;
         $this->id = $id ?? $field;
     }
 
@@ -30,15 +26,6 @@ class AjaxError extends Component
     {
         return view('tweny-ui-kit-views::components.forms.ajax-error');
     }
-
-//    public function message(ViewErrorBag $errors): array
-//    {
-//        $bag = $errors->getBag($this->bag);
-//
-//        return $bag->has($this->field) ? $bag->get($this->field) : [];
-//    }
-
-
-
+    
 
 }
