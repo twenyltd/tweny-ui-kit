@@ -30,6 +30,7 @@ return [
         //  Forms Elements
         'form' => Components\Forms\Form::class,
         'error' => Components\Forms\Error::class,
+        'ajax-error' => Components\Forms\AjaxError::class,
         'label' => Components\Forms\Elements\Label::class,
         'input' => Components\Forms\Elements\Input::class,
         'password' => Components\Forms\Elements\Password::class,
