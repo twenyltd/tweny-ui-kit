@@ -13,12 +13,16 @@ class Error extends Component
     /** @var string */
     public $bag;
 
+    /** @var string */
+    public $id;
+
 
     //  Create a new component instance.
-    public function __construct($field, $bag='default')
+    public function __construct($field, $bag='default', $id = null)
     {
         $this->field = $field;
         $this->bag = $bag;
+        $this->id = $id ?? $field;
     }
 
     //Get the view / contents that represent the component.
