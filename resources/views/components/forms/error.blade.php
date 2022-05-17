@@ -8,4 +8,3 @@
     </span>
 @enderror
 
-<span {{$attributes->merge(['class'=>'text-danger','id'=>$id.'_error'])}} role="alert" ></span>
