@@ -1,1 +1,1 @@
-<span {{$attributes->merge(['class'=>'badge','id'=>$id.'_error'])}} role="alert" ></span>
+<span {{$attributes->merge(['class'=>'text-start','id'=>$id.'_error'])}} role="alert" ></span>
