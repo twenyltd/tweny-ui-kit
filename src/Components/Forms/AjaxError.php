@@ -15,7 +15,7 @@ class AjaxError extends Component
 
 
     //  Create a new component instance.
-    public function __construct($field, $id = null)
+    public function __construct($field, $id = null, $class='text-danger')
     {
         $this->field = $field;
         $this->id = $id ?? $field;
@@ -26,6 +26,6 @@ class AjaxError extends Component
     {
         return view('tweny-ui-kit-views::components.forms.ajax-error');
     }
-    
+
 
 }
