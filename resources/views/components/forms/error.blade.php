@@ -1,5 +1,5 @@
 @error($field,$bag)
-    <span {{$attributes->merge(['class'=>'field-error -danger'])}} role="alert" >
+    <span {{$attributes->merge(['class'=>'field-error text-danger'])}} role="alert" >
         @if ($slot->isEmpty())
             {{ $message }}
         @else
