@@ -10,10 +10,14 @@ class Delete extends Component
     /* @var  */
     public $action;
 
+    /* @var  */
+    public $label;
+
     //  Create a new component instance.
-    public function __construct($action)
+    public function __construct($action, $label = 'delete', $class="btn-block")
     {
         $this->action = $action;
+        $this->label = $label;
     }
 
     //  Get the view / contents that represent the component.
