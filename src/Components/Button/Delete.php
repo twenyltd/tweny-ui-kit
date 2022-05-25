@@ -14,7 +14,7 @@ class Delete extends Component
     public $label;
 
     //  Create a new component instance.
-    public function __construct($action, $label = 'delete', $class="btn-block")
+    public function __construct($action, $label = '<i class="fa fa-trash-alt"></i> Delete', $class="btn-block")
     {
         $this->action = $action;
         $this->label = $label;
