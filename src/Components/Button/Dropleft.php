@@ -9,14 +9,10 @@ class Dropleft extends Component
 {
     public $icon;
     
-    public $align;
-
     //  Create a new component instance.
-    public function __construct( $class="btn btn-link btn-sm text-dark", $icon = 'fas fa-cog', $align ='dropleft' )
+    public function __construct( $class="btn btn-link btn-sm text-dark", $icon = 'fas fa-cog' )
     {
         $this->icon = $icon;
-        $this->align = $align;
-
     }
 
     //  Get the view / contents that represent the component.
