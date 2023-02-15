@@ -8,11 +8,14 @@ use Illuminate\View\Component;
 class Dropleft extends Component
 {
     public $icon;
+    
+    public $align;
 
     //  Create a new component instance.
-    public function __construct( $class="btn btn-link btn-sm text-dark",$icon = 'fas fa-cog' )
+    public function __construct( $class="btn btn-link btn-sm text-dark", $icon = 'fas fa-cog', $align ='dropleft' )
     {
         $this->icon = $icon;
+        $this->align = $align;
 
     }
 
