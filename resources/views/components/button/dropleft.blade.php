@@ -1,6 +1,6 @@
 <div class="btn-group {{$align}}">
 
-    <button {{$attributes->merge(['class'=>'btn'])}} style=".btn:hover{border:0;}" data-toggle="dropdown">
+    <button {{$attributes->merge(['class'=>'btn'])}} style=".btn:hover{border:0;}" data-bs-toggle="dropdown" aria-expanded="false">
         <i class="{{$icon}}"></i>
     </button>
 
