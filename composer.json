@@ -14,8 +14,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "laravel/ui": "^4.2",
-        "laravelcollective/html": "^6.0"
+        "laravel/ui": "^4.2"
     },
     "extra": {
         "laravel": {
