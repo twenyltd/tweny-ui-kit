@@ -8,14 +8,13 @@
     },
     "authors": [
         {
-            "name": "Antweny Sawe",
-            "email": "antweny@live.com"
+            "name": "TWENY LIMITED",
+            "email": "info@tweny.co.tz"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "laravel/ui": "^4.2",
-        "laravelcollective/html": "^6.0"
+        "laravel/ui": "^4.2"
     },
     "extra": {
         "laravel": {
