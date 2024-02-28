@@ -1,4 +1,4 @@
-<div class="table-responsive">
+<div class="table table-responsive">
 
     <table {{$attributes->merge(['class'=>'table table-sm'])}} id="{{$id}}" >
 
