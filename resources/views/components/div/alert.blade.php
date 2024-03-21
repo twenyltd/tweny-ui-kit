@@ -1,3 +1,3 @@
-<div {{ $attributes->merge(['alert' => 'card']) }} role="alert" >
+<div {{ $attributes->merge(['class' => 'alert']) }} role="alert" >
     {!! $slot !!}
 </div>
